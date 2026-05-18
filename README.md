@@ -6,3 +6,4 @@ Projects:
 - profile generator
 - password checker
 - security clearance checker
+- GPA checker
