@@ -1,0 +1,29 @@
+# Restaurant Bill Calculator
+
+name = input("Name:")
+food = float(input("Food:"))
+tax_percentage = float(input("Tax:"))
+tip_percentage = float(input("Tip:"))
+discount_percentage = float(input("Discount:"))
+tax_amount = food * (tax_percentage / 100)
+tip_amount = food * (tip_percentage / 100)
+discount_amount = food * (discount_percentage / 100)
+total_cost = food - discount_amount + tax_amount + tip_amount
+people = int(input("How many people are splitting the bill?"))
+cost_per_person = total_cost / people
+
+print()
+print("=====Receipt=====")
+print("=================")
+
+print("Name:", name)
+print("Food:", food)
+print("Tax:", tax_amount)
+print("Tip:", tip_amount)
+print("Discount:", discount_amount)
+print("Total:", round(total_cost, 2))
+print("Each person pays:", round(cost_per_person, 2))
+
+print("----------")
+print("Thanks for dining with us!")
+
