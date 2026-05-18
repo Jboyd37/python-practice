@@ -3,7 +3,8 @@
 Beginner Python coding exercises and projects.
 
 Projects:
-- profile generator
-- password checker
-- security clearance checker
+- Profile Generator
+- Password Checker
+- Security Clearance Checker
 - GPA checker
+- Bill Calculator
